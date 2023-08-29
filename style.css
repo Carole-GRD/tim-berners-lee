@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat&family=Open+Sans:wght@300&family=Raleway:wght@300&family=Rubik&family=Rubik+Iso&family=Sedgwick+Ave+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat&family=Open+Sans:wght@300;400&family=Raleway:wght@300&family=Rubik&family=Rubik+Iso&family=Sedgwick+Ave+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat&family=Open+Sans:wght@300;400;800&family=Raleway:wght@300&family=Rubik&family=Rubik+Iso&family=Sedgwick+Ave+Display&display=swap');
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e7e7e7;
+}
+
+main {
+    max-width: 80vw;
+    margin: 0 auto;
+    color: #5a5a5a;
+    text-align: justify;
+}
+
+section,
+#networks-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 2rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+/* PREMIERE SECTION */
+
+section:first-child {
+    padding: 30px 50px 20px;
+}
+
+section:first-of-type img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px #e7e7e7;
+    margin-bottom: 1rem;
+}
+
+section:first-of-type p {
+    margin-bottom: 1rem;
+}
+
+section:first-of-type button {
+    padding: 15px 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+section:first-child h1 {
+    color: orangered;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+
+/* DIV (entre les deux sections) */
+
+#networks-list {
+    height: 200px;
+}
+
+#networks-list ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#networks-list li {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    list-style-type: none;
+}
+
+#networks-list img {
+    height: 30px;
+    display: block;
+    margin-bottom: .5rem;
+}
+
+
+/* DEUXIEME SECTION */
+
+section:last-of-type {
+    padding: 50px;
+}
+
+section:last-of-type h2 {
+    margin-bottom: 2rem;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+article:last-of-type {
+    margin-bottom: 0;
+}
+
+article img {
+    width: 120px;
+    margin-right: 30px;
+}
+
+article h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 640px) {
+    main {
+        max-width: 80vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        max-width: 35vw;
+    }
+}
